@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  }
+
+h1,h2,h3,ul,p,img {
+    margin-bottom: 1.5rem;
+}
+
+
+body {
+	background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #444349;
+}
+
+.locations,
+.program,
+.gifts,
+.faq,
+.contact {
+  width: 95%;
+  margin: 1.5rem auto;
+  padding: .5rem 1rem;
+  text-align: center;
+}
+
+h1,h2 {
+  font-family: 'Great Vibes', cursive;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #bd806e;
+}
+
+a:hover {
+  color: #eda087;
+  transition: color .3s ease-in-out;
+}
+	
+	
+/*
+font-family: 'Libre Baskerville', serif;
+font-family: 'Mulish', sans-serif;
+*/
+
+/* képek:
+cover photo: https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg
+
+
+*/
+
+/*
+Színek:
+default text color: #444349 (grey)
+alternate text color: #d2ba87 (gold)
+header tagline and date color: hsla(0,0%,100%,.9);
+dark background: hsla(100,0%,0%,.6);
+footer background color: #606060
+*/
+
