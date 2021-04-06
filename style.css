@@ -1,3 +1,5 @@
+/* GENERAL STYLES */
+
 * {
   box-sizing: border-box;
   }
@@ -48,21 +50,73 @@ a:hover {
   transition: color .3s ease-in-out;
 }
 	
+/* HEADER STYLES */
+
+
+header {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+  display: table;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero-text-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hero-text {
+  color: hsla(0,0%,100%,.9);
+  background: hsla(100,0%,0%,.6);
+	margin: 0 auto;
+  padding: .5rem;
+  
+}
+
+.date, .tagline {
+  font-size: 1.2rem;
+  letter-spacing: .2rem;
+	color: hsla(0,0%,100%,.9);
+ }
+
+.hero-text h1 {
+  font-size: 3rem;
+  color: #d2ba87;
+  margin-bottom: 0;
+}
+
+.tagline::after {
+  display: block;
+  content: "";
+  background-color: hsl(0, 0%, 100%);
+  height: 1px;
+  width: 15rem;
+  margin: .5rem auto;
+}
+
+.date::before,
+.date::after {
+  display: inline-block;
+  content: "";
+  background-color: hsl(0, 0%, 100%);
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
+
 	
 /*
 font-family: 'Libre Baskerville', serif;
 font-family: 'Mulish', sans-serif;
 */
 
-/* képek:
-cover photo: https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg
-
-
 */
 
 /*
 Színek:
-default text color: #444349 (grey)
+
 alternate text color: #d2ba87 (gold)
 header tagline and date color: hsla(0,0%,100%,.9);
 dark background: hsla(100,0%,0%,.6);
