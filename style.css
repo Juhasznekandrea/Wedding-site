@@ -106,10 +106,36 @@ header {
   margin: 0 .5rem;
 }
 
+
+
+/* LOCATIONS STYLES */
+
+
+.information {
+  font-family: 'Mulish', sans-serif;
+}
+
+.information img {
+  height: 8rem;
+}
+
+.information h3 {
+  font-weight: 600;
+}
+
+.information::after {
+  content: "";
+  display: block;
+  height: .15rem;
+  width: 8rem;
+  margin: 1.5rem auto;
+  background-color: #444349;
+}
+
+
 	
 /*
 font-family: 'Libre Baskerville', serif;
-font-family: 'Mulish', sans-serif;
 */
 
 */
@@ -117,8 +143,6 @@ font-family: 'Mulish', sans-serif;
 /*
 Színek:
 
-alternate text color: #d2ba87 (gold)
-header tagline and date color: hsla(0,0%,100%,.9);
 dark background: hsla(100,0%,0%,.6);
 footer background color: #606060
 */
